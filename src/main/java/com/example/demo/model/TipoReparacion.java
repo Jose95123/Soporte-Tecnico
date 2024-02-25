@@ -24,8 +24,6 @@ public class TipoReparacion {
         this.tipo = tipo;
     }
 
-    // Getters y setters
-
     public Long getIdTipoReparacion() {
         return idTipoReparacion;
     }

@@ -1,5 +1,6 @@
 package com.example.demo.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,6 +15,7 @@ public class Garantia {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idGarantia;
 
+    @Column(name="duracion_meses")
     private int duracionMeses;
 
     public Garantia() {
